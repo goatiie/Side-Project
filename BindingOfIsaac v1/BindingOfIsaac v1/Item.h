@@ -34,8 +34,21 @@ public:
 	//update whether the item has been picked up or not
 	void update(void);
 
-	//set the cooldown 
+	//set/get for the cooldown 
 	void setCooldown(int n);
+	int getCooldown(void);
+
+	//set/get for the item type
+	void setItemType(ItemType t);
+	ItemType getItemType(void);
+
+	//set/get for the position of the item
+	void setItemPosition(float x, float y);
+	Vector getItemPosition(void);
+
+	//set/get for the name of the item
+	void setItemName(char* name);
+	char* getItemname(void);
 
 	//draw the image data
 	void draw(void);
