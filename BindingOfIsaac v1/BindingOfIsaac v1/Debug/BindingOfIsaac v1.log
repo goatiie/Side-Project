@@ -1,0 +1,48 @@
+﻿Build started 04/10/2013 10:27:36.
+     1>Project "E:\BindingOfIsaac\BindingOfIsaac v1\BindingOfIsaac v1\BindingOfIsaac v1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BindingOfIsaac v1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Isaac.cpp Loader.cpp Main.cpp RenderClass.cpp
+         Isaac.cpp
+         Generating Code...
+         Compiling...
+         RenderClass.cpp
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(130): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(321): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(323): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(325): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\renderclass.cpp(327): warning C4018: '>=' : signed/unsigned mismatch
+         Main.cpp
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\main.cpp(30): warning C4065: switch statement contains 'default' but no 'case' labels
+         Loader.cpp
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\loader.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\bindingofisaac\bindingofisaac v1\bindingofisaac v1\loader.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BindingOfIsaac\BindingOfIsaac v1\Debug\BindingOfIsaac v1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:libs openal32.lib alut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BindingOfIsaac v1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\BindingOfIsaac\BindingOfIsaac v1\Debug\BindingOfIsaac v1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BindingOfIsaac\BindingOfIsaac v1\Debug\BindingOfIsaac v1.lib" /MACHINE:X86 Debug\Bomb.obj
+         Debug\Coin.obj
+         Debug\Isaac.obj
+         Debug\Item.obj
+         Debug\Loader.obj
+         Debug\Main.obj
+         Debug\Pickups.obj
+         Debug\Pill.obj
+         Debug\Projectiles.obj
+         Debug\RenderClass.obj
+         Debug\Vector.obj
+     1>Bomb.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         BindingOfIsaac v1.vcxproj -> E:\BindingOfIsaac\BindingOfIsaac v1\Debug\BindingOfIsaac v1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\BindingOfIsaac\BindingOfIsaac v1\Debug\BindingOfIsaac v1.exe;#1" /manifest "Debug\BindingOfIsaac v1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\BindingOfIsaac v1.unsuccessfulbuild".
+         Touching "Debug\BindingOfIsaac v1.lastbuildstate".
+     1>Done Building Project "E:\BindingOfIsaac\BindingOfIsaac v1\BindingOfIsaac v1\BindingOfIsaac v1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:25.45
